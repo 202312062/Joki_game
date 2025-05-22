@@ -103,3 +103,19 @@ button:hover {
         padding: 20px;
     }
 }
+.btn-selesai {
+    display: inline-block;
+    padding: 8px 12px;
+    margin-top: 10px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-selesai.disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
